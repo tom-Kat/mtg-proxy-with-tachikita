@@ -4,8 +4,6 @@ USER root
 
 RUN pip install scrython
 
-RUN pip install scrython
-
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
