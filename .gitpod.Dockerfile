@@ -1,6 +1,8 @@
 FROM gitpod/workspace-full
                     
-USER gitpod
+USER root
+
+RUN pip install scrython
 
 RUN pip install scrython
 
