@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM python:3.8.1
                     
 USER root
 
