@@ -1,10 +1,6 @@
-FROM python:3.8.1
+FROM gitpod/workspace-full
                     
-USER root
-
-RUN pip install --upgrade pip \
-    && pip install virtualenv pipenv pylint rope flake8 mypy autopep8 pep8 pylama pydocstyle bandit notebook python-language-server[all]==0.25.0 \
-    && rm -rf /tmp/*
+USER gitpod
 
 RUN pip install scrython
 
