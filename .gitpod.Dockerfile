@@ -2,8 +2,6 @@ FROM gitpod/workspace-full
                     
 USER gitpod
 
-RUN pip install scrython
-
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
