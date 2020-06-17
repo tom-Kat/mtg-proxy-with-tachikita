@@ -2,7 +2,8 @@ FROM gitpod/workspace-full
                     
 USER gitpod
 
-RUN sudo pyenv install 3.8.3 && \
+RUN sudo pyenv update && \
+    sudo pyenv install 3.8.3 && \
     pyenv global 3.8.3
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
